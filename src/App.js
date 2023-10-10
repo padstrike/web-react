@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Name : {process.env.REACT_APP_APP_NAME} ENV : {process.env.REACT_APP_ENV} TIMEOUT : {process.env.REACT_APP_TIMEOUT}
         </p>
         <a
           className="App-link"
